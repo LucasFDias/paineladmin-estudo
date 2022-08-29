@@ -1,0 +1,35 @@
+{
+  "name": "P-ADMIN",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^5.0.0",
+    "@adminjs/sequelize": "^3.0.0",
+    "@adminjs/upload": "^3.0.0",
+    "adminjs": "^6.0.4",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "react-google-charts": "^4.0.0",
+    "sequelize": "^6.21.3",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sequelize-cli": "^6.4.1",
+    "sucrase": "^3.24.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:undo": "sequelize-cli db:migrate:undo"
+  }
+}
