@@ -16,7 +16,7 @@ Onde cada tarefa possui um projeto atrelado e um usuário responsável.
 ```sh
 npm install
 npm start
-
+```
 
 ## Navegadores suportados
 
